@@ -1,0 +1,40 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    background-color: #a6aec1;
+    height: 100vh;
+    flex-direction: column;
+
+    
+}
+H1{
+    text-align: center;
+    color: #6c788e;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 100px;
+    
+}
+a{
+    align-self: center;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    background-color: #cfd5e1;
+    width: 256px;
+    height: 59px;
+    color: #6c788e;
+    align-self: center;
+    border-radius: 12px;
+    border: none;
+    text-decoration: none;
+
+}
+button:hover{
+    background-color: #6c788e;
+    color: #cfd5e1;
+}
